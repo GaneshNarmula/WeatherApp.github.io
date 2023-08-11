@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,600;1,500;1,800&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(92, 66, 66);
+    color: white;
+    background-image: url(img.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card{
+    /* background-color: rgb(221, 210, 210); */
+    background-color: rgb(212, 237, 160);
+    padding: 1em;
+    color: black;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+    -webkit-box-shadow: -1px -2px 10px 1px rgba(103,89,94,1);
+    -moz-box-shadow: -1px -2px 10px 1px rgba(103,89,94,1);
+    box-shadow: -1px -2px 10px 1px rgba(103,89,94,1);
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+    /* background-color: rgb(209, 231, 164);
+    background-size: auto; */
+}
+
+.search input{
+    width: 100%;
+    max-width: 270px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: rgb(88, 74, 74);
+    color: white;
+    padding: 0px 1em;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+
+.search input::placeholder{
+    color: white;
+}
+
+.search button{
+    margin-left: 10px;
+    background-color: rgb(88, 74, 74);
+    padding: 1em;
+    border: none;
+    border-radius: 50%;
+}
+
+.search button i{
+    font-size: 15px;
+    color: white;
+}
+
+/* .weather{
+    margin-left: 10px;
+} */
+
+.weather .temp{
+    font-size: 22px;
+    font-weight: 900;
+    color: black;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
+.weather .city{
+    margin-left: 15px;
+}
+
+.line{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 30px;
+    margin: 15px 0px;
+}
+
+.line-two{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 19px;
+    margin: 15px 0px;
+}
+
+.line-three{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: -50px;
+}
